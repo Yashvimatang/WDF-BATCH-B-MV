@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentHub | Sign Up</title>
+    <style>
+      body {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #6b96bd;
+        color: azure;
+        font-family: Georgia, "Times New Roman", serif;
+      }
+      .other-page {
+        background-image: url("commonbackground.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 16px;
+      }
+      header {
+        font-size: 20px;
+      }
+      nav a {
+        font-size: 20px;
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .login-container {
+        max-width: 400px;
+        margin: 100px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        color: aliceblue;
+        background-color: #6b96bd;
+      }
+      .signup label {
+        display: inline-block;
+        width: 140px;
+        text-align: left;
+      }
+      .signup input {
+        padding: 6px;
+        width: 200px;
+      }
+      .signup input[type="checkbox"] {
+        width: auto;
+      }
+      button {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #3f607d;
+        color: white;
+      }
+      .login-link a {
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body class="other-page">
+    <div class="login-container">
+      <main>
+        <section class="signup-container">
+          <h2>Create Your Account</h2>
+          <p>Join StudentHub Portal</p>
+          <br>
+          <form class="signup" id="signupForm">
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Enter your full name"
+              required
+            />
+            <br>
+            <br>
+            <label for="phone">Mobile Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your mobile number"
+              required
+            />
+            <br>
+            <br>
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <br>
+            <br>   
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create a password"
+              required
+            />
+            <br>
+            <br>
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm your password"
+              required
+            />
+            <br>
+            <br>  
+            <label>
+              <input type="checkbox" id="showPassword" />
+              Show Password
+            </label>
+            <br>
+            <br>
+            <label>
+              <input type="checkbox" id="terms" required />
+              I agree to the Terms & Conditions.
+            </label>
+            <br>
+            <br>
+            <button type="submit">Create Account</button>
+            <button type="reset">Reset</button>
+          </form>
+          <p class="login-link">
+            Already have an account?
+            <a href="index.html"> Login Here </a>
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2026 StudentHub Portal | CHARUSAT. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

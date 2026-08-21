@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #333;
+}
+.other-page {
+    background-image: url("commonbackground.png");
+    background-size: cover;
+    background-position:0% 0%;
+    background-repeat: no-repeat;
+  font-size: 16px;
+}
+.login-container label {
+    display: inline-block;
+    width: 80px;
+}
+
+.login-container input,
+.login-container select {
+    width: 220px;
+    padding: 5px;
+}
+    </style>
+    <title>Login - StudentHub | CHARUSAT</title>
+</head>
+<body class="other-page">
+    <div class="login-container" style="max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; position: relative; color: aliceblue; background-color: #6b96bd; margin-left: auto; margin-right: auto; margin-top: 100px;">
+        <h2>Login to StudentHub | CHARUSAT</h2>
+        <form  id = "login">
+            <label for="username" required>Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>    
+            <label for="password" required>Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <!-- <label for="contact" required>Contact:</label>
+            <input type="text" id="contact" name="Contact" required>
+            <br>
+            <br>
+            <label for="email" required>Email:</label>
+            <input type="email" id="email" name="email" required> -->
+            <!-- <br>
+            <br> -->
+             <button type="submit" id = "btn">Login</button>
+        </form>
+        <p>
+            <a href="forgotpassword.html">
+                Forgot Password?
+            </a>
+        </p>
+        <p >Don't have an account? <a href="signup.html">Sign Up</a></p>
+        <!-- <p>Back to <a href="Pract1.html">Home</a></p> -->
+         <script>
+    // document.getElementById("btn").addEventListener("click",function(){
+    //  let btn = document.getElementById("btn");
+    // alert("congratulations you logged in successfully!");
+    // });
+ document.getElementById("login").addEventListener("click",function(event){
+ event.preventDefault();
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
+//   let contact = document.getElementById("contact").value;
+//   let email = document.getElementById("email").value;
+  if(username === "25dit033" && 
+  password === "kanuriya" ){
+  alert("Congratulations you logged in succesfully!");
+    window.location.href = "Pract1.html";
+  }
+//   }else{
+//     if(username!="25dit033"){
+//         alert("Incorrect username.");
+//     }else if(password != "kanuriya"){
+//         alert("Incorrect password.");
+//     }else if(contact != "8780509779"){
+//         alert("Incorrect contact.")
+//     }else if(email != "yashvimatang@gmail.com"){
+//         alert("incorrect email");
+//     }
+//   }
+
+});
+        </script>
+    </div>
+</body>
+</html>

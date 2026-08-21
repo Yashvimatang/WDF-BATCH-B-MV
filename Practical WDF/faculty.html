@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background-color: #7792aa;
+            color: #333;
+            text-align: center;
+        }
+
+        .login-box {
+            background-color: #6b96bd;
+            width: 400px;
+            padding: 30px;
+            margin: 80px auto;
+            border-radius: 10px;
+        }
+        .content {
+            background-image: url("commonbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        }
+        h1 {
+            color: #3f607d;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 12px 30px;
+            background-color: #6b96bd;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4e789e;
+        }
+
+        a {
+            color: #3f607d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+    <title>Faculty Login | StudentHub</title>
+
+</head>
+
+<body class ="content">
+
+    <div class="login-box">
+
+        <h1>Faculty Login</h1>
+
+        <p>
+            Login to access your StudentHub faculty account.
+        </p>
+
+        <form>
+
+            <label for="faculty-id">
+                Faculty ID
+            </label>
+
+            <input
+                type="text"
+                id="faculty-id"
+                name="faculty-id"
+                placeholder="Enter Faculty ID"
+                required
+            >
+
+            <label for="department">
+                Department
+            </label>
+
+            <select id="department" name="department" required>
+
+                <option value="">
+                    Select Department
+                </option>
+
+                <option value="DEPSTAR">
+                    DEPSTAR
+                </option>
+
+                <option value="CSPIT">
+                    CSPIT
+                </option>
+
+                <option value="PDPIAS">
+                    PDPIAS
+                </option>
+
+                <option value="RPCP">
+                    RPCP
+                </option>
+
+                <option value="CMPICA">
+                    CMPICA
+                </option>
+
+                <option value="I2IM">
+                    I2IM
+                </option>
+
+                <option value="MTIN">
+                    MTIN
+                </option>
+
+                <option value="ARIP">
+                    ARIP
+                </option>
+
+                <option value="PMIPS">
+                    PMIPS
+                </option>
+
+                <option value="CLASS">
+                    CLASS
+                </option>
+
+            </select>
+
+            <label for="password">
+                Password
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"
+                required
+            >
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <p>
+            <a href="forgotpassword.html">
+                Forgot Password?
+            </a>
+        </p>
+
+        <p>
+            <a href="Pract1.html">
+                ← Back to StudentHub Home
+            </a>
+        </p>
+
+    </div>
+
+</body>
+
+</html>

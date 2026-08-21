@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn javascript | CHARUSAT</title>
+</head>
+<body>
+   <div class="login-container" style="max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; position: relative; color: aliceblue; background-color: #6b96bd; margin-left: auto; margin-right: auto; margin-top: 100px;">
+        <form id = "loginform">
+            <label for="username" required>Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <button type="submit" id = "btn">Login</button>
+            <p id ="error"></p>
+        </form>
+    </div>
+</body>
+<script>
+ /*document.getElementById("btn").addEventListener("click",function(){
+    let btn = document.getElementById("btn");
+    alert("congratulations you logged in successfully!");
+ });*/
+ document.getElementById("loginform").addEventListener("click",function(event){
+        event.preventDefault();
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        if(username === "25dit033" && password === "bt ethn "){
+            alert("congratulations you logged in successfully!");
+            window.location.href = "index.html";
+        }else{
+            error.innerHTML  ="Wrong password!";
+            error.innerHTML = "Rewrite your password or click below to reset it!"; 
+        }
+});
+</script>
+</html>
