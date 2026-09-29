@@ -1,0 +1,280 @@
+{
+  "assignments": {
+    "FDSA": [
+      {
+        "title": " Practical 1",
+        "description": "Array Operations: Traversal, Rotation, and Frequency Analysis.",
+        "deadline": "13 July 2026"
+      },
+      {
+        "title": " Practical 2",
+        "description": "Linear and Binary Search: Iterative and Recursive Approaches.",
+        "deadline": " 20 July 2026"
+      },
+      {
+        "title": " Practical 3",
+        "description": "Sorting Algorithms: Comparison-Based, Counting-Based, and Digit-Based Strategies.",
+        "deadline": "27 July 2026"
+      },
+      {
+        "title": " Practical 4",
+        "description": "Singly Linked List: Dynamic Insertion, Deletion, and Traversal.",
+        "deadline": "3 August 2026"
+      },
+      {
+        "title": " Practical 5",
+        "description": "Doubly Linked List and Circular Linked List Operations.",
+        "deadline": "10 August 2026"
+      },
+      {
+        "title": " Practical 6",
+        "description": "Stack Implementation using Array and Linked List, with Expression Processing.",
+        "deadline": "17 August 2026"
+      },
+      {
+        "title": " Practical 7",
+        "description": "Queue Implementation using Array and Linked List, with Structure Simulation.",
+        "deadline": "24 August 2026"
+      },
+      {
+        "title": " Practical 8",
+        "description": "Binary Tree Traversals and Binary Search Tree Insertion.",
+        "deadline": "31 August 2026"
+      },
+      {
+        "title": " Practical 9",
+        "description": "Graph Traversal: Depth-First Search and Breadth-First Search.",
+        "deadline": "7 September 2026"
+      },
+      {
+        "title": " Practical 10",
+        "description": "Hash Tables: Linear Probing, Chaining, and Double Hashing",
+        "deadline": "17 September 2026"
+      }
+    ],
+
+    "WDF": [
+      {
+        "title": " Practical 1",
+        "description": "Project Initiation, Requirement Analysis, Sitemap, Wireframe, and GitHub Setup",
+        "deadline": "8 July 2026"
+      },
+      {
+        "title": "Practical 2",
+        "description": " Semantic HTML5 Pages with Accessibility-Ready Structure",
+        "deadline": "15 July 2026"
+      },
+      {
+        "title": " Practical 3",
+        "description": "Responsive UI Design using CSS Grid, Flexbox, and Bootstrap/Tailwind",
+        "deadline": "22 July 2026"
+      },
+      {
+        "title": " Practical 4",
+        "description": "JavaScript DOM Manipulation, Event Handling, and UI Interactivity",
+        "deadline": " 29 July 2026"
+      },
+      {
+        "title": " Practical 5",
+        "description": "Registration Form with Frontend Validation and User-Friendly Error Handling",
+        "deadline": "5 August 2026"
+      },
+      {
+        "title": " Practical 6",
+        "description": "Rendering External JSON Data using Fetch API, Search and Filter",
+        "deadline": " 12 August 2026"
+      },
+      {
+        "title": " Practical 7",
+        "description": "PHP Form Processing with Server-Side Validation and CSV/JSON File Storage",
+        "deadline": "19 August 2026"
+      },
+      {
+        "title": " Practical 8",
+        "description": "MySQL Schema Design, ER Model, PDO Connectivity, and Prepared Statements",
+        "deadline": "26 August 2026"
+      },
+      {
+        "title": " Practical 9",
+        "description":"Secure User Registration with Database Insert, Duplicate Email Check, and Password Hashing",
+        "deadline": "2 September 2026"
+      },
+      {
+        "title": " Practical 10",
+        "description": "Secure Login/Logout with Sessions, Role-Based Access, Timeout, and Remember-Me Token",
+        "deadline": " 9 September 2026"
+      },
+      {
+        "title": " Practical 11",
+        "description": "Student Management CRUD with Search and Filter",
+        "deadline": " 13 September 2026"
+      },
+      {
+        "title": " Practical 12",
+        "description": "Event Management CRUD with Poster Upload and File Validation",
+        "deadline": " 26 September 2026"
+      },
+      {
+        "title": " Practical 13",
+        "description": "PHP JSON API and AJAX/Fetch-Based CRUD without Page Reload",
+        "deadline": " 30 September 2026"
+      },
+      {
+        "title": " Practical 14",
+        "description": "Admin Dashboard with Role-Based Access Control, Dynamic Menu, and Audit Log",
+        "deadline": " 7 October 2026"
+      },
+      {
+        "title": " Practical 15",
+        "description": "Final Integration, Testing, Documentation, GitHub Submission, and Local Deployment",
+        "deadline": "14 October 2026"
+      }
+    ],
+
+    "FCN": [
+      {
+        "title": " Practical 1",
+        "description": "Study Cisco Packet Tracer basics, OSI and TCP/IP network models, and fundamental transmission media concepts including cable types, communication modes, bandwidth, delay, and multiplexing.",
+        "deadline": "13 July 2026"
+      },
+      {
+        "title": "Practical 2",
+        "description": "Develop experiential understanding of basic computer network communication by configuring two-PC connectivity, observing IP addressing, MAC addressing, ARP and ICMP packet flow, and analyzing TCP/IP protocol header fields using Cisco Packet Tracer, Wireshark and basic networking commands.",
+        "deadline": " 20 July 2026"
+      },
+      {
+        "title": " Practical 3",
+        "description": "Develop experiential understanding of Layer-2 communication by implementing Ethernet raw-socket programs, analyzing hub and switch behavior, observing ARP and MAC-address tables, and designing and troubleshooting a multi-switch LAN using Linux and Cisco Packet Tracer.",
+        "deadline": "27 July 2026"
+      },
+      {
+        "title": " Practical 4",
+        "description": "Develop experiential understanding of Layer-3 communication by configuring interconnected networks, analyzing router forwarding decisions, routing tables, default gateways, ARP operation and TTL changes, and implementing static routing using Cisco Packet Tracer and Linux-based packet observation.",
+        "deadline": "3 August 2026"
+      },
+      {
+        "title": " Practical 5",
+        "description": "Design and evaluate a multi-branch enterprise network using RIP version 2 dynamic routing and centralized DHCP services. Analyze route advertisement, routing-table updates, DHCP relay operation, DHCP DORA packet exchange, packet forwarding, Layer-2 and Layer-3 address changes, traceroute behavior, and alternate-route selection after introducing a failover link using Cisco Packet Tracer.",
+        "deadline": "10 August 2026"
+      },
+      {
+        "title": " Practical 6",
+        "description": "Simulate a star topology with a central router and 5 hosts. Measure average delay and packet loss while sending UDP traffic using OnOffApplication.",
+        "deadline": "17 August 2026"
+      },
+      {
+        "title": " Practical 7",
+        "description": "Simulate two transport protocols (TCP and UDP) over a dumbbell topology. Compare throughput, jitter, and fairness.",
+       "deadline": "31 August 2026"
+      },
+      {
+        "title": " Practical 8",
+        "description": "Simulate a chain topology with 4 nodes. Apply QoS parameters (priority queue) and analyze delay variation for different traffic types (voice vs data).",
+       "deadline": "7 September 2026"
+      },
+      {
+        "title": "Practical 9 ",
+        "description": "Create a wireless network using WiFi Helper in NS-3. Simulate AODV and DSDV routing protocols and evaluate packet delivery ratio (PDR) and routing overhead.",
+        "deadline": "7 September 2026"
+      },
+      {
+        "title": "Practical 10",
+        "description": "Text Message Echo and Processing over TCP and UDP Socket Communication",
+        "deadline": "14 September 2026"
+      },
+      {
+        "title": "Practical 11",
+        "description": "File Transfer over TCP Sockets in C++",
+        "deadline": "21 September 2026"
+      },
+      {
+        "title": "Practical 12",
+        "description": "Multi-Client Chat Server using TCP and Threads in C++",
+        "deadline": "28 September 2026"
+      },
+      {
+        "title": "Practical 13",
+        "description": "ICMP Ping Utility Using Raw Sockets in C++",
+        "deadline": "5 October 2026"
+      },
+      {
+        "title": "Practical 14",
+        "description": "Analyze and interpret live packet data captured using Wireshark. Identify packet structure, protocols used, and basic troubleshooting through headers",
+        "deadline": "12 October 2026" 
+      }
+    ],
+
+    "OOPs": [
+      {
+        "title": " Practical 1",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": " Practical 2",
+        "description": " ",
+        "deadline": "18 July 2026"
+      },
+      {
+        "title": " Practical 3",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": " Practical 4",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": " Practical 5",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": " Practical 6",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": " Practical 7",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": " Practical 8",
+        "description": " ",
+        "deadline": "2026"
+      },
+      {
+        "title": "Practical 9 ",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": "Practical 10",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": "Practical 11",
+        "description": " ",
+        "deadline": "2026"
+      },
+      {
+        "title": " Practical 12",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": "Practical 13",
+        "description": " ",
+        "deadline": " 2026"
+      },
+      {
+        "title": "Practical 14",
+        "description": " ",
+        "deadline":" 2026"
+      }
+    ]
+  }
+}
