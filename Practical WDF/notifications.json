@@ -1,0 +1,24 @@
+{
+    "notifications":[
+        {
+            "Title" : "OOPs[JAVA]",
+            "Message":"Submit your respective java files upto pratical number 5",
+            "Date" : "25/09/2026"
+        },
+        {
+            "Title":"HSUV",
+            "Message" :"Submit your respective mindmap and project definitation",
+            "Date" : "24/09/2026"
+        },
+        {
+            "Title" : "FDSA",
+            "Message" : "Submit your respective C++ files upto pratical number 6",
+            "Date" : "28/09/2026"
+        },
+        {
+            "Title": "WDF",
+            "Message":"Submit your respective JSON files related works",
+            "Date" : "30/09/2026"
+        }
+    ]
+}
