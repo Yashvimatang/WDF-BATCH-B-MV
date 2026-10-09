@@ -1,0 +1,21 @@
+[
+    
+     {
+        "id": 1,
+        "fullname": "Kanishk matang",
+        "country": "+91",
+        "phone": "9909034694",
+        "email": "kanishkdmatang@gmail.com",
+        "password": "$2y$10$Y3.fu1YhmEJ5.3h1jCbgHuMyn6/c0TgFlJRgJIK078K3kCB/VkWrW",
+        "created_at": "2026-10-07 02:04:57"
+    },
+    {
+        "id": 2,
+        "fullname": "Yashvimatang",
+        "country": "+91",
+        "phone": "8780509779",
+        "email": "25dit033@charusat.edu.in",
+        "password": "$2y$10$qeREDj5Yr7GVSNZh0ablJO.X4D6g3x8UXaMhyogEQomVtJnu/72wu",
+        "created_at": "2026-10-07 02:02:54"
+    }
+]
