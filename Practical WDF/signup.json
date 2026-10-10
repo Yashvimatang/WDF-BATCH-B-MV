@@ -1,13 +1,12 @@
 [
-    
-     {
+    {
         "id": 1,
         "fullname": "Kanishk matang",
         "country": "+91",
         "phone": "9909034694",
         "email": "kanishkdmatang@gmail.com",
         "password": "$2y$10$Y3.fu1YhmEJ5.3h1jCbgHuMyn6/c0TgFlJRgJIK078K3kCB/VkWrW",
-        "created_at": "2026-10-07 02:04:57"
+        "created_at": "2026-10-07 15:30:44"
     },
     {
         "id": 2,
@@ -16,6 +15,24 @@
         "phone": "8780509779",
         "email": "25dit033@charusat.edu.in",
         "password": "$2y$10$qeREDj5Yr7GVSNZh0ablJO.X4D6g3x8UXaMhyogEQomVtJnu/72wu",
-        "created_at": "2026-10-07 02:02:54"
+        "created_at": "2026-10-07 15:33:54"
+    },
+    {
+        "id": 3,
+        "fullname": "Dinesh M Matang",
+        "country": "+91",
+        "phone": "9909034694",
+        "email": "dineshmatang2013@gmail.com",
+        "password": "$2y$10$ofUtoLsTGLgkSELEj5zk2O.V4VgmJ7qttvY9Z1lXtk7Zc67jxn9pK",
+        "created_at": "2026-10-10 07:05:36"
+    },
+    {
+        "id": 4,
+        "fullname": "Ruhi D matang",
+        "country": "+91",
+        "phone": "79886311",
+        "email": "ruhimatang@gmail.com",
+        "password": "$2y$10$nG0h3Vg4Z3g5AXuC/GAU3O64RfamXBtXlmaTP3boHh17lwrAQeEqm",
+        "created_at": "2026-10-10 19:40:34"
     }
 ]
